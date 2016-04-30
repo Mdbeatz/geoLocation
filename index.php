@@ -13,16 +13,16 @@
 <?php include("header.php") ?>
 
 <div id="mapPage">
-    <div id='container'>
-        <div id="geoLocation"> 
+
+    <div id="geoLocation"> 
         <!--<h1>Weather</h1>-->
-            <p id="location"></p>
-            <p id="temp"></p>
-            <!--Humidity: <p id="humidity"></p>-->
-         </div>
-           
-    </div>
-   	<div id='map-canvas'>
+            Location: <br><span id="location"></span><br>
+            Temperature: <br><span id="temp"></span>&#176;C<br>
+            Description: <br><span id="description"></span><br>
+            Humidity: <br><span id="humidity"></span>%
+    </div>           
+   
+   	<div id="map-canvas">
        <div class="modal"></div>
     </div>
 </div><!-- /page -->

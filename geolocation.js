@@ -68,6 +68,7 @@ function getWeather() {
             console.log(data);
             $('#location').html(data['name']);
             $('#temp').html(data['main']['temp']);
+			$('#description').html(data['weather']['description']);
             $('#humidity').html(data['main']['humidity']);
         },
         type: 'GET'

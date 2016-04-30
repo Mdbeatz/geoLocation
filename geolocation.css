@@ -8,24 +8,25 @@
 /*}*/
 
 #map-canvas {
-    height: 100%;
-    position: absolute;
-    bottom: -200px;
+	margin-top: 90px;
+    height: 50%;
+    position: absolute;   
     left: 0;
     right: 0;
     z-index: 0;
     opacity: 0.7;
 }
 
-#container {
+#geoLocation {
+	padding-top: 50px;
     z-index: 100;
     position: relative;
 	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 	text-align:center;
-	font-size: 30px;
-	color: #0b1d28;
-	font-weight:bolder;
-	line-height:100%;
+	font-size: 18px;
+	color: #727272;
+	font-weight:bold;
+	line-height:130%;
 }
 
 .modal {
@@ -53,4 +54,25 @@ body.loading {
 body.loading .modal {
     display: block;
 	/**background-size:cover;**/
+}
+
+#location {
+	font-size:28px;
+	color: #0b1d28;
+	font-weight:bolder;
+}
+#temp{
+	font-size:28px;
+	color: #0b1d28;
+	font-weight:bolder;
+}
+#description{
+	font-size:28px;
+	color: #0b1d28;
+	font-weight:bolder;
+}
+#humidity{
+	font-size:28px;
+	color: #0b1d28;
+	font-weight:bolder;
 }
