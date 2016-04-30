@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="469884e1-18cf-4909-a426-0219aab5f7c9" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/custom.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/custom.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/ajax-loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/action-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/action-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/alert-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/alert-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/arrow-d-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/arrow-d-l-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/arrow-d-l-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/arrow-d-r-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/arrow-d-r-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/arrow-d-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/arrow-l-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/arrow-l-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/arrow-r-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/arrow-r-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/arrow-u-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/arrow-u-l-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/arrow-u-l-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/arrow-u-r-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/arrow-u-r-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/arrow-u-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/audio-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/audio-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/back-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/back-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/bars-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/bars-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/bullets-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/bullets-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/calendar-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/calendar-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/camera-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/camera-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/carat-d-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/carat-d-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/carat-l-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/carat-l-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/carat-r-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/carat-r-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/carat-u-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/carat-u-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/check-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/check-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/clock-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/clock-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/cloud-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/cloud-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/comment-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/comment-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/delete-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/delete-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/edit-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/edit-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/eye-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/eye-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/forbidden-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/forbidden-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/forward-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/forward-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/gear-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/gear-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/grid-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/grid-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/heart-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/heart-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/home-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/home-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/info-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/info-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/location-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/location-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/lock-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/lock-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/mail-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/mail-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/minus-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/minus-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/navigation-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/navigation-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/phone-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/phone-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/plus-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/plus-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/power-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/power-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/recycle-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/recycle-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/refresh-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/refresh-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/search-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/search-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/shop-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/shop-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/star-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/star-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/tag-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/tag-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/user-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/user-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/video-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/images/icons-png/video-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/css/jquery.mobile.icons.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/footer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/geolocation.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/header.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geoLocation/index1.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.php" afterPath="$PROJECT_DIR$/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/geolocation.css" afterPath="$PROJECT_DIR$/geolocation.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/geolocation.js" afterPath="$PROJECT_DIR$/geolocation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+    </list>
+    <ignored path="geoLocation.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="geoLocation" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/geoLocation/geolocation.css" />
+        <option value="$PROJECT_DIR$/js/basic/jquery.qtip.min.js" />
+        <option value="$PROJECT_DIR$/css/basic/jquery.qtip.min.css" />
+        <option value="$PROJECT_DIR$/geolocation.css" />
+        <option value="$PROJECT_DIR$/footer.php" />
+        <option value="$PROJECT_DIR$/geolocation.js" />
+        <option value="$PROJECT_DIR$/index.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.4" />
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="1" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geoLocation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geoLocation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geoLocation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="/Applications/MAMP_2016-04-29_23-06-25/bin/php/php5.4.42/bin" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="prefere&#9;null&#9;null" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="469884e1-18cf-4909-a426-0219aab5f7c9" name="Default" comment="" />
+      <created>1461983388958</created>
+      <option name="number" value="Default" />
+      <updated>1461983388958</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="124" column="0" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geoLocation/index1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.411985">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geoLocation/geolocation.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14981273">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geoLocation/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geoLocation/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geoLocation/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45692885">
+          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/jquery.mobile.icons.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.8501873">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/HTML5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="1992" column="0" selection-start-line="1992" selection-start-column="0" selection-end-line="1992" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.018726591">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.037453182">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geoLocation/geolocation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38181818">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geolocation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33834586">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geolocation.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5992509">
+          <caret line="32" column="43" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16853933">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

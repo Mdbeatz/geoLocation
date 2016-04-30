@@ -1,120 +1,81 @@
-//geolocationPage
-var x = document.getElementById("geoLocation");
-function getLocation() {
-    if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(showPosition);
-    } else {
-        x.innerHTML = "Geolocation is not supported by this browser.";
-    }
-}
-function showPosition(position) {
-    x.innerHTML = "Latitude: " + position.coords.latitude + 
-    "<br>Longitude: " + position.coords.longitude; 
-}
-
-$(document).on('click', '#getGeolocation', function(){
-    console.log("clicked");
-    getLocation();
-});
-
 //map page
-var y = document.getElementById("map-canvas");
-var mapLatitude;
-var mapLongitude;
-var myLatlng;
+var mapLatitude, myLatlng, mapLongitude, pos;
 
-function getMapLocation() {
-	console.log("getMapLocation");
+function initMap() {
+
+    $('body').addClass("loading");
+
     if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(showMapPosition);
+        navigator.geolocation.getCurrentPosition(function (position) {
+            pos = {
+                lat: position.coords.latitude,
+                lng: position.coords.longitude
+            };
+
+            var map = new google.maps.Map(document.getElementById('map-canvas'), {
+                center: pos,
+                zoom: 12,
+                scrollwheel: false,
+                draggable: false
+            });
+
+            $('body').removeClass("loading");
+
+            myLatlng = new google.maps.LatLng(pos['lat'], pos['lng']);
+            //map.setCenter(pos);
+            var marker = new google.maps.Marker({
+                position: myLatlng,
+                map: map,
+                animation: google.maps.Animation.DROP,
+                label: "You are here"
+            });
+            marker.addListener('click', function () {
+                if (marker.getAnimation() !== null) {
+                    marker.setAnimation(null);
+                } else {
+                    marker.setAnimation(google.maps.Animation.BOUNCE);
+                }
+            });
+
+            getWeather();
+        }, function () {
+            //handleLocationError(true, map, map.getCenter());
+        });
     } else {
-        y.innerHTML = "Geolocation is not supported by this browser.";
+        // Browser doesn't support Geolocation
+        //handleLocationError(false, map, map.getCenter());
     }
 }
-function showMapPosition(position) {
-	console.log("showMapPosition");
-    mapLatitude = position.coords.latitude;
-    mapLongitude = position.coords.longitude;
-    myLatlng = new google.maps.LatLng(mapLatitude,mapLongitude);
-    getMap();
+
+function handleLocationError(browserHasGeolocation, infoWindow, pos) {
+    infoWindow.setPosition(pos);
+    infoWindow.setContent(browserHasGeolocation ?
+        'Error: The Geolocation service failed.' :
+        'Error: Your browser doesn\'t support geolocation.');
 }
 
-
-var map;
-function getMap() {
-	console.log("getMap");
-  var mapOptions = {
-    zoom: 12,
-    center: new google.maps.LatLng(mapLatitude, mapLongitude)
-  };
-  map = new google.maps.Map(document.getElementById('map-canvas'),
-      mapOptions);
-
-	var marker = new google.maps.Marker({
-	    position: myLatlng,
-	    map: map,
-	    title:"You are here!"
-	});
+// Getting the Weather
+function getWeather() {
+    $.ajax({
+        url: 'http://api.openweathermap.org/data/2.5/weather?lat=' + pos['lat'] + '&lon=' + pos['lng'] + "&appid=01c048adc4c883cbae924f9c0cac4a2f",
+        data: {
+            format: 'json'
+        },
+        error: function () {
+            $('#info').html('<p>An error has occurred</p>');
+        },
+        success: function (data) {
+            console.log(data);
+            $('#name').html(data['name']);
+        },
+        type: 'GET'
+    });
 }
 
-$( document ).on( "pageshow", "#mapPage", function( event ) {
-  getMapLocation();
-});
-
-//directionsPage
-var directionsDisplay;
-var directionsService = new google.maps.DirectionsService();
-var directionsMap;
-var z = document.getElementById("directions-canvas");
-var start;
-var end;
-
-function getDirectionsLocation() {
-	console.log("getDirectionsLocation");
-    if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(showDirectionsPosition);
-    } else {
-        z.innerHTML = "Geolocation is not supported by this browser.";
-    }
+if (window.addEventListener) {
+    window.addEventListener('load', initMap);
+} else if (window.attachEvent) {
+    window.attachEvent('onload', initMap);
+} else {
+    window.onload = initMap;
 }
-function showDirectionsPosition(position) {
-	console.log("showDirectionsPosition");
-    directionsLatitude = position.coords.latitude;
-    directionsLongitude = position.coords.longitude;
-    directionsLatLng = new google.maps.LatLng(directionsLatitude,directionsLongitude);
-    getDirections();
-}
-
-function getDirections() {
-	console.log('getDirections');
-  directionsDisplay = new google.maps.DirectionsRenderer();
-  //start = new google.maps.LatLng(directionsLatLng);
-  var directionsOptions = {
-    zoom:12,
-    center: start
-  }
-  directionsMap = new google.maps.Map(document.getElementById("directions-canvas"), directionsOptions);
-  directionsDisplay.setMap(directionsMap);
-  calcRoute();
-}
-
-function calcRoute() {
-	console.log("calcRoute");
-  start = directionsLatLng;
-  end = "1230 Avenue McGill College, Montréal, QC H3B 1E2";
-  var request = {
-    origin:start,
-    destination:end,
-    travelMode: google.maps.TravelMode.TRANSIT
-  };
-  directionsService.route(request, function(result, status) {
-    if (status == google.maps.DirectionsStatus.OK) {
-      directionsDisplay.setDirections(result);
-    }
-  });
-}
-
-$( document ).on( "pageshow", "#directionsPage", function( event ) {
-  getDirectionsLocation();
-});
-
