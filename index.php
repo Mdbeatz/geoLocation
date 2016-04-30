@@ -19,7 +19,9 @@
 
         <h1>Weather</h1>
 
-        <p id="name"></p>
+        Location: <p id="location"></p>
+        Temperature: <p id="temp"></p>
+        Humidity: <p id="humidity"></p>
     </div>
     <div id='map-canvas'>
         <div class="modal"></div>

@@ -57,7 +57,7 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
 // Getting the Weather
 function getWeather() {
     $.ajax({
-        url: 'http://api.openweathermap.org/data/2.5/weather?lat=' + pos['lat'] + '&lon=' + pos['lng'] + "&appid=01c048adc4c883cbae924f9c0cac4a2f",
+        url: 'http://api.openweathermap.org/data/2.5/weather?lat=' + pos['lat'] + '&lon=' + pos['lng'] + "&appid=01c048adc4c883cbae924f9c0cac4a2f&units=metric",
         data: {
             format: 'json'
         },
@@ -66,7 +66,9 @@ function getWeather() {
         },
         success: function (data) {
             console.log(data);
-            $('#name').html(data['name']);
+            $('#location').html(data['name']);
+            $('#temp').html(data['main']['temp']);
+            $('#humidity').html(data['main']['humidity']);
         },
         type: 'GET'
     });
