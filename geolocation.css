@@ -6,6 +6,7 @@
 /*.ui-content, #mapPage, #directionsPage{*/
 	/*height: inherit;*/
 /*}*/
+
 #map-canvas {
     height: 100%;
     position: absolute;
@@ -19,6 +20,12 @@
 #container {
     z-index: 100;
     position: relative;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	text-align:center;
+	font-size: 30px;
+	color: #0b1d28;
+	font-weight:bolder;
+	line-height:100%;
 }
 
 .modal {
@@ -45,4 +52,5 @@ body.loading {
    modal element will be visible */
 body.loading .modal {
     display: block;
+	/**background-size:cover;**/
 }

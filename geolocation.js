@@ -16,7 +16,7 @@ function initMap() {
                 center: pos,
                 zoom: 12,
                 scrollwheel: false,
-                draggable: false
+                draggable: true
             });
 
             $('body').removeClass("loading");

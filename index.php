@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Site</title>
+    <title>Weather & Geolocation</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
     <link rel="stylesheet" href="geolocation.css"/>
@@ -14,21 +14,20 @@
 
 <div id="mapPage">
     <div id='container'>
-        <div id="geoLocation">
-        </div>
-
-        <h1>Weather</h1>
-
-        Location: <p id="location"></p>
-        Temperature: <p id="temp"></p>
-        Humidity: <p id="humidity"></p>
+        <div id="geoLocation"> 
+        <!--<h1>Weather</h1>-->
+            <p id="location"></p>
+            <p id="temp"></p>
+            <!--Humidity: <p id="humidity"></p>-->
+         </div>
+           
     </div>
-    <div id='map-canvas'>
-        <div class="modal"></div>
+   	<div id='map-canvas'>
+       <div class="modal"></div>
     </div>
 </div><!-- /page -->
 
-<?php include("footer.php") ?>
+
 
 <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
 <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
