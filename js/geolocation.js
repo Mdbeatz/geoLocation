@@ -1,10 +1,11 @@
-//map page
-var mapLatitude, myLatlng, mapLongitude, pos;
-
+/**
+ * Initialize the Map on the home page
+ */
 function initMap() {
-
+    // Enable the loading gif while map is retrieving the user's location.
     $('body').addClass("loading");
 
+    // Check if location is enabled on browser
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(function (position) {
             pos = {
@@ -19,16 +20,18 @@ function initMap() {
                 draggable: true
             });
 
+            // Map has been loaded, remove the loading gif
             $('body').removeClass("loading");
 
             myLatlng = new google.maps.LatLng(pos['lat'], pos['lng']);
-            //map.setCenter(pos);
+
+            // Create a marker for the user's current location
             var marker = new google.maps.Marker({
                 position: myLatlng,
                 map: map,
-                animation: google.maps.Animation.DROP,
-                label: "You are here"
+                animation: google.maps.Animation.DROP
             });
+            // Add a fancy bouncing animation to the marker.
             marker.addListener('click', function () {
                 if (marker.getAnimation() !== null) {
                     marker.setAnimation(null);
@@ -37,7 +40,8 @@ function initMap() {
                 }
             });
 
-            getWeather();
+            getWeather(pos);
+            getFlickrImages(pos);
         }, function () {
             //handleLocationError(true, map, map.getCenter());
         });
@@ -47,6 +51,12 @@ function initMap() {
     }
 }
 
+/**
+ * Handler for any errors triggered in the initMap function.
+ * @param browserHasGeolocation
+ * @param infoWindow
+ * @param pos
+ */
 function handleLocationError(browserHasGeolocation, infoWindow, pos) {
     infoWindow.setPosition(pos);
     infoWindow.setContent(browserHasGeolocation ?
@@ -54,10 +64,15 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
         'Error: Your browser doesn\'t support geolocation.');
 }
 
+
 // Getting the Weather
-function getWeather() {
+function getWeather(pos) {
     $.ajax({
-        url: 'http://api.openweathermap.org/data/2.5/weather?lat=' + pos['lat'] + '&lon=' + pos['lng'] + "&appid=01c048adc4c883cbae924f9c0cac4a2f&units=metric",
+        url: 'http://api.openweathermap.org/data/2.5/weather?' +
+        'lat=' + pos['lat'] +
+        '&lon=' + pos['lng'] +
+        "&appid=01c048adc4c883cbae924f9c0cac4a2f" +
+        "&units=metric",
         data: {
             format: 'json'
         },
@@ -68,13 +83,16 @@ function getWeather() {
             console.log(data);
             $('#location').html(data['name']);
             $('#temp').html(data['main']['temp']);
-			$('#description').html(data['weather']['description']);
+            $('#description').html(data['weather'][0]['description']);
             $('#humidity').html(data['main']['humidity']);
         },
         type: 'GET'
     });
 }
 
+/**
+ * Depending on which browser the page is loaded in, the initialize is set.
+ */
 if (window.addEventListener) {
     window.addEventListener('load', initMap);
 } else if (window.attachEvent) {
